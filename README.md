@@ -4,7 +4,7 @@ This project is related to neuarl network course at the University of Tartu, Ins
 *  Expanding the available data with Round-trip-translation
 
 
-# Daatset: 
+# Datset: 
 * [multilingual-text-categorization-dataset](https://github.com/valeriano-manassero/multilingual-text-categorization-dataset)
 
 
