@@ -15,3 +15,5 @@ This part involves testing how to best leverage the increased diversity that RT-
 
 # Supervisor:
 Sander Tars (sander.tars@mindtitan.com)
+
+[Project presentation](https://docs.google.com/presentation/d/11iIc1PeohLZTsHa8DeB0nNDdfD1gKOKxGAMtZqVmdqU/edit#slide=id.g50ff697be1_0_244)
