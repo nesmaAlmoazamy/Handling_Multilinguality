@@ -18,7 +18,3 @@ In this part we will try three different ways for multilingual text classificati
 # 2. Expanding the available data with Round-trip-translation:
 * This part involves testing how to best leverage the increased diversity that RT-translation brings to the data.
 
-# Supervisor:
-* Sander Tars (sander.tars@mindtitan.com)
-
-[Project presentation](https://docs.google.com/presentation/d/11iIc1PeohLZTsHa8DeB0nNDdfD1gKOKxGAMtZqVmdqU/edit#slide=id.g50ff697be1_0_244) 
