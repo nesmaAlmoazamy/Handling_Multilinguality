@@ -8,7 +8,7 @@ Our project consists of two main parts:
 # Datset: 
 [multilingual-text-categorization-dataset](https://github.com/valeriano-manassero/multilingual-text-categorization-dataset)
 This data set contains blog posts in 32 Language categorized into 45 Category. 
-Categories: ['advertising', 'agriculture', 'animation', 'arts_and_crafts',
+* Categories: ['advertising', 'agriculture', 'animation', 'arts_and_crafts',
        'entertainment', 'astrology', 'vehicles', 'games',
        'books_and_literature', 'business', 'gambling', 'jobs', 'clothing',
        'comic_books', 'dating', 'education', 'adult', 'food', 'health',
@@ -18,7 +18,8 @@ Categories: ['advertising', 'agriculture', 'animation', 'arts_and_crafts',
        'sci_fi_and_fantasy', 'science', 'shopping', 'society', 'sports',
        'tech', 'teens', 'television', 'travel', 'under_construction',
        'weather']
-Languages: ['english', 'albanian', 'arabic', 'bulgarian', 'chinese',
+       
+* Languages: ['english', 'albanian', 'arabic', 'bulgarian', 'chinese',
        'croatian', 'czech', 'danish', 'dutch', 'estonian', 'finnish',
        'french', 'german', 'greek', 'hebrew', 'hungarian', 'icelandic',
        'italian', 'japanese', 'korean', 'lithuanian', 'norwegian',
@@ -51,7 +52,7 @@ In this part we will try three different ways for multilingual text classificati
 
 * We used FLAIR stacked embeddings for english classification. we found that it consumes alot of resources but as a POC we trained it over a subset of the english dataset. and it worked well for this subset. you can find the experiment here: This is the [POC]( https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/FlairEnglishClassificationPOC.ipynb)
 *After that we Trained it over all the English dataset, code [here]( https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/FlairEnglishClassificationToBeRunOverTheCluster.ipynb)
-*But it resulted in a very strange results, which can be seen from [here]( https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/result_flair.txt)
+* But it resulted in a very strange results, which can be seen from [here]( https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/result_flair.txt)
 
 
 Blog post can be found [here](https://medium.com/@mahmoud.kamel104/machine-translation-and-multilinguality-in-text-classification-6e20ef9dbce8)
