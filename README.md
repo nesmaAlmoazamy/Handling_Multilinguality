@@ -44,10 +44,13 @@ This part involves testing how to best leverage the increased diversity that RT-
 # Experiments:
 1- Keras Experiments and Results can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Keras/ALL_PHASES.ipynb), except there are some experiments that was run over the server as: 
 * The Translation model results and code which can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/tree/master/Keras/Joint_Translated_Monolingual) 
+ ** The Datasets Translation to English Using IBM can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Keras/TranslationUsingIBMWatson.ipynb)
+ 
+ ** The Languages after being Translated to lenguage can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Keras/Super%20Language%20after%20translation.ipynb)  
+ ** we also Tried using Google Translation, but we reached the limit, and we couldn't find a way around that, That's why we moved to IBM Watson for the translations. which also have a limit but we managed to work around it.
+* The Joint Multilingual model results and code which can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/tree/master/Keras/Joint_Multilingual_Results) 
 
-* The RoundTrip Translation model results and code which can be found [here]() 
-
-* The RoundTrip Multilingual model results and code which can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/tree/master/Keras/Joint_Multilingual_Results) 
+* The RoundTrip  model results and code which can be found [here]() 
 
 
 2- AllenNlp Results are Included in this [notebook]( https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/AllenNlp/ALL_PHASES_AllenNlp.ipynb)
@@ -61,8 +64,8 @@ For Running AllenNlp from Configuration file, we need those files:
 * We used Bert through Flair Framework, but it failed because Bert can only work for data sequences that are less than 512, and our dataset has articles with more number of sequences. you can see the experiment [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/FlairBertEnglishFAILED.ipynb)
 * After that we tried decreasing the number of tokens per each article which can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/FlairBertEnglishDecreaseNumberOfTokensTo50.ipynb) but it resulted in a bad results also so we decided not to continue with FLAIR
 
-* We used FLAIR stacked embeddings for english classification. we found that it consumes alot of resources but as a POC we trained it over a subset of the english dataset. and it worked well for this subset. you can find the experiment here: This is the [POC]( https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/FlairEnglishClassificationPOC.ipynb)
-*After that we Trained it over all the English dataset, code [here]( https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/FlairEnglishClassificationToBeRunOverTheCluster.ipynb)
+* We used FLAIR stacked embeddings for english classification. we found that it consumes alot of resources but as a POC we trained it over a subset of the english dataset. and it worked well for this subset. you can find the experiment here: This is the [POC](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/FlairEnglishClassificationPOC.ipynb)
+* After that we Trained it over all the English dataset, code [here]( https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/FlairEnglishClassificationToBeRunOverTheCluster.ipynb)
 * But it resulted in a very strange results, which can be seen from [here]( https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/result_flair.txt)
 
 Visualization code of the graphs that are used in the blog post can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Visualization/Visualizations.ipynb)
