@@ -34,7 +34,7 @@ In this part we will try three different ways for multilingual text classificati
 3. multiple monolingual classification approach: each language has a separate classification system trained to it.
 
 # 2. Expanding the available data with Round-trip-translation:
-* This part involves testing how to best leverage the increased diversity that RT-translation brings to the data.
+This part involves testing how to best leverage the increased diversity that RT-translation brings to the data.
 
 # Frameworks:
 1- Keras  
@@ -42,9 +42,20 @@ In this part we will try three different ways for multilingual text classificati
 3- FLAIR 
 
 # Experiments:
-1- Keras Experiments and Results can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Keras/ALL_PHASES.ipynb), except there are some experiments that was run over the server and their results can be found here:
+1- Keras Experiments and Results can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Keras/ALL_PHASES.ipynb), except there are some experiments that was run over the server as: 
+* The Translation model results and code which can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/tree/master/Keras/Joint_Translated_Monolingual) 
+
+* The RoundTrip Translation model results and code which can be found [here]() 
+
+* The RoundTrip Multilingual model results and code which can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/tree/master/Keras/Joint_Multilingual_Results) 
+
 
 2- AllenNlp Results are Included in this [notebook]( https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/AllenNlp/ALL_PHASES_AllenNlp.ipynb)
+For Running AllenNlp from Configuration file, we need those files: 
+* DataReader Class can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/AllenNlp/data-reader.py)
+* Predictor Class can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/AllenNlp/predictor.py)
+* Model Class can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/AllenNlp/LstmClassifier.py)
+* Configuration file can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/AllenNlp/ArticlesClassification.jsonnet)
 
 3-Flair Experiments Results: 
 * We used Bert through Flair Framework, but it failed because Bert can only work for data sequences that are less than 512, and our dataset has articles with more number of sequences. you can see the experiment [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/FlairBertEnglishFAILED.ipynb)
@@ -54,5 +65,6 @@ In this part we will try three different ways for multilingual text classificati
 *After that we Trained it over all the English dataset, code [here]( https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/FlairEnglishClassificationToBeRunOverTheCluster.ipynb)
 * But it resulted in a very strange results, which can be seen from [here]( https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Flair/result_flair.txt)
 
+Visualization code of the graphs that are used in the blog post can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/Visualization/Visualizations.ipynb)
 
 Blog post can be found [here](https://medium.com/@mahmoud.kamel104/machine-translation-and-multilinguality-in-text-classification-6e20ef9dbce8)
