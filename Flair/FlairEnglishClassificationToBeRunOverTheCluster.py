@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ## Using Flair Embedding and Glove over English dataset with 2 categories as a POC due to resources shortage
-
 # In[1]:
 
 
