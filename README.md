@@ -1,9 +1,9 @@
 # Machine Translation and  Multilinguality in Text classification.
+Team Members: Nesma Mahmoud B87771, Mahmoud Kamel B87770
 This project is related to at the University of Tartu, Institute of Computer Science. 
 Our project consists of two main parts:
 *  Handling multilinguality in text classification
 *  Expanding the available data with Round-trip-translation
-
 
 # Datset: 
 [multilingual-text-categorization-dataset](https://github.com/valeriano-manassero/multilingual-text-categorization-dataset)
@@ -26,7 +26,7 @@ This data set contains blog posts in 32 Language categorized into 45 Category.
        'polish', 'portuguese', 'romanian', 'russian', 'serbian',
        'slovenian', 'spanish', 'swedish', 'turkish', 'ukrainian'],
 
-# Project Goals: 
+# Project Scope: 
 # 1. Handling multilinguality in text classification:
 In this part we will try three different ways for multilingual text classification, and compare between them. The three differet methods are:
 1. Comparing Joint multilingual approach: we classify all of the languages together with single classification system (can be also ensemble of multilingual models)
