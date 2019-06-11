@@ -50,8 +50,6 @@ This part involves testing how to best leverage the increased diversity that RT-
  ** we also Tried using Google Translation, but we reached the limit, and we couldn't find a way around that, That's why we moved to IBM Watson for the translations. which also have a limit but we managed to work around it.
 * The Joint Multilingual model results and code which can be found [here](https://github.com/nesmaAlmoazamy/Handling_Multilinguality/tree/master/Keras/Joint_Multilingual_Results) 
 
-* The RoundTrip  model results and code which can be found [here]() 
-
 
 2- AllenNlp Results are Included in this [notebook]( https://github.com/nesmaAlmoazamy/Handling_Multilinguality/blob/master/AllenNlp/ALL_PHASES_AllenNlp.ipynb)
 For Running AllenNlp from Configuration file, we need those files: 
